@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+.container {
+  max-width: 1540px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 140px;
+  width: 100%;
+  background-color: #f6cece;
+  height: 100px;
+}
+
+.navbar img {
+  width: 286px;
+}
+
+.navbar .link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.navbar .link a {
+  margin: 0 42px;
+  text-decoration: none;
+  color: #446381;
+  font-size: 18px;
+}
+
+.navbar a img {
+  width: 50px;
+}
+
+.navbar .link button {
+  font-size: 18px;
+  color: #FFFFFF;
+  border: 0;
+  cursor: pointer;
+  width: 180px;
+  height: 50px;
+  border-radius: 25px;
+  background: rgb(104, 103, 190);
+  background: linear-gradient(108deg, rgba(104, 103, 190, 1) 19%, rgba(68, 153, 217, 1) 56%);
+}
+
+.navbar .link button:hover {
+  background: rgb(49, 47, 196);
+  background: linear-gradient(108deg, rgba(49, 47, 196, 1) 24%, rgba(157, 66, 217, 1) 56%);
+  transition: 0.2s;
+  width: 185px;
+  height: 55px;
+  border-radius: 30px;
+  transition: 0.2s;
+}
+
+.navbar .link button:active {
+  transition: 0.2s;
+  width: 180px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.show-burger {
+  position: absolute;
+  right: -200px;
+}
+
+.close {
+  width: 30px;
+}
+aside{
+  display: none;
+  position: absolute ;
+  
+  background-color: rgba(0, 0, 0, 0.245);
+  width: 100px;
+  height: 100vh;
+  display: flex;
+  transition: 0.5s;
+  flex-direction: column;
+
+}
+.burger {
+  padding: 30px 30px;
+
+  flex-direction: column;
+  width: 250px;
+  height: 100vh;
+  top: 0;
+
+
+
+  background-color: rgba(92, 92, 92, 0.396);
+}
+
+.bur {
+  display: none;
+}
+
+.burger h2 {
+  margin: 10px 0;
+  font-size: 40px;
+}
+
+.burger a {
+  margin: 10px 0;
+  color: white;
+  font-size: 20px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6cece;
+}
+header button {
+  font-size: 18px;
+  color: #FFFFFF;
+  border: 0;
+  width: 180px;
+  height: 50px;
+  border-radius: 25px;
+  background: rgb(104, 103, 190);
+  background: linear-gradient(108deg, rgba(104, 103, 190, 1) 19%, rgba(68, 153, 217, 1) 56%);
+  cursor: pointer;
+}
+
+header button:hover {
+  background: rgb(49, 47, 196);
+  background: linear-gradient(108deg, rgba(49, 47, 196, 1) 24%, rgba(157, 66, 217, 1) 56%);
+  transition: 0.2s;
+  width: 185px;
+  height: 55px;
+  border-radius: 30px;
+  transition: 0.2s;
+}
+
+header button:active {
+  transition: 0.2s;
+  width: 180px;
+  height: 50px;
+  border-radius: 25px;
+  
+}
+.texts p,h4 {
+  padding: 30px 10px;
+}
+.texts {
+  padding-left: 160px;
+  padding-right: 160px;
+}
+.texts p {
+  color: #826F8C;
+}
+.ht {
+  color: #EB8382;
+  font-size: 68px;
+}
+.hp {
+  color: #EB8382;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6cece;
+}
+section img {
+  margin-left: 57px;
+  
+}
+section button {
+  font-size: 18px;
+  color: #FFFFFF;
+  border: 0;
+  width: 180px;
+  height: 50px;
+  border-radius: 25px;
+  background: rgb(104, 103, 190);
+  background: linear-gradient(108deg, rgba(104, 103, 190, 1) 19%, rgba(68, 153, 217, 1) 56%);
+  cursor: pointer;
+}
+
+section button:hover {
+  background: rgb(49, 47, 196);
+  background: linear-gradient(108deg, rgba(49, 47, 196, 1) 24%, rgba(157, 66, 217, 1) 56%);
+  transition: 0.2s;
+  width: 185px;
+  height: 55px;
+  border-radius: 30px;
+  transition: 0.2s;
+}
+
+section button:active {
+  transition: 0.2s;
+  width: 180px;
+  height: 50px;
+  border-radius: 25px;
+  
+}
+.texts h4 {
+  color: #446381;
+  font-size: 23px;
+}
+#con {
+  text-align: center;
+  background-color: #f6cece;
+  
+}
+
+#con button {
+  font-size: 18px;
+  color: #FFFFFF;
+  border: 0;
+  width: 267px;
+  height: 50px;
+  border-radius: 25px;
+  background: rgb(104, 103, 190);
+  background: linear-gradient(108deg, rgba(104, 103, 190, 1) 19%, rgba(68, 153, 217, 1) 56%);
+  cursor: pointer;
+  text-align: center;
+}
+
+
+#con button {
+  border: none;
+  outline: none;
+  background-color: #6c5ce7;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 25px;
+  transition: all ease 0.1s;
+  box-shadow: 0px 5px 0px 0px #a29bfe;
+}
+
+#con button:active {
+  transform: translateY(5px);
+  box-shadow: 0px 0px 0px 0px #a29bfe;
+}
+#cart{
+  background-color: #FBDACF;
+  width: 360px;
+  height: 566px;
+  text-align: start;
+  border-radius: 20px;
+}
+#cart p {
+  padding: 20px;
+}
+#cart h3 {  
+  padding-bottom: 70px;
+  padding-left: 50px;
+  font-weight: 700;
+  font-size: 32px;
+}
+#cart img {
+  margin-left: 290px;
+  display: none;
+}
+#cart:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+  background-color: #09143C;
+  cursor: pointer;
+}
+#cart:hover img {
+  display: block;
+}
+#cart:hover p {
+  color: white;
+}
+#cart:hover h3 {
+  color: #FFFFFF;
+}
+#card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f6cece;
+  
+}
+.hp{
+  margin-left: 26px;
+  font-weight: 700;
+  font-size: 27px;
+}
+.fi img {
+  margin:0 20px;
+  object-fit: contain;
+  background-color: #e99e9c;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width:1480px) {
+  footer  {
+    display: none;
+  }
+
+}
+@media (max-width:1480px) {
+  header img {
+    display: none;
+  }
+  .texts {
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+  }
+}
+@media (max-width:1320px) {
+  .navbar img {
+    width: 200px;
+    ;
+  }
+
+  .navbar .link button {
+    font-size: 10px;
+    width: 120px;
+    height: 40px;
+  }
+
+}
+
+@media (max-width:1180px) {
+  .navbar .link {
+    display: none;
+  }
+  .bur{
+    display: block;
+  }
+}
+@media (max-width:1280px) {
+  #cart {
+    background-color: #e99e9c;
+    width: 60px;
+    height: 60px;
+  }
+  #cart * {
+    display: none;
+  }
+  #cart:hover {
+    transition: 0.5s;
+    width: 360px;
+    height: 566px;
+  }
+  #cart:hover *{
+    display: block;
+  }
+  
+}
